@@ -29,17 +29,17 @@ function convertPokemonToDetailHtml(pokemon) {
 
         <div class="details-card">
             <ul class="tabs">
-                <li id="tab-about" class="tab-item active" onclick="openTab('about')">About</li>
-                <li id="tab-stats" class="tab-item" onclick="openTab('stats')">Base Stats</li>
-                <li id="tab-evo" class="tab-item" onclick="openTab('evo')">Evolution</li>
+                <li id="tab-about" class="tab-item active" onclick="openTab('about')">Sobre</li>
+                <li id="tab-stats" class="tab-item" onclick="openTab('stats')">Estatísticas básicas</li>
+                <li id="tab-evo" class="tab-item" onclick="openTab('evo')">Evolução</li>
             </ul>
 
             <div id="content-about" class="tab-content active">
                 <div class="info-grid">
-                    <span class="label">Species</span> <span class="value">${pokemon.species}</span>
-                    <span class="label">Height</span> <span class="value">${pokemon.height / 10} m</span>
-                    <span class="label">Weight</span> <span class="value">${pokemon.weight / 10} kg</span>
-                    <span class="label">Abilities</span> <span class="value" style="text-transform: capitalize;">${pokemon.abilities.join(', ')}</span>
+                    <span class="label">Espécie</span> <span class="value">${pokemon.species}</span>
+                    <span class="label">Altura</span> <span class="value">${pokemon.height / 10} m</span>
+                    <span class="label">Peso</span> <span class="value">${pokemon.weight / 10} kg</span>
+                    <span class="label">Habilidades</span> <span class="value" style="text-transform: capitalize;">${pokemon.abilities.join(', ')}</span>
                 </div>
             </div>
 
